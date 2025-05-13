@@ -24,7 +24,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-{'''
+
 #include<stdlib.h>
 #include<sys/types.h> 
 #include<sys/stat.h> 
@@ -79,7 +79,6 @@ n=read(rfd,buff,2000);
 buff[n]='\0';
 printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 }
-'''}
 
 
 
@@ -88,6 +87,7 @@ printf("THE RESULTS OF CLIENTS ARE ...... \n"); write(1,buff,n);
 ## OUTPUT
 
 ![WhatsApp Image 2025-05-13 at 14 14 12_694143cb](https://github.com/user-attachments/assets/1e87f503-ed93-4d40-9eee-5ae4432246f1)
+
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
 
